@@ -1,0 +1,179 @@
+
+/* header */	
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 7px 0;
+	text-align: center;
+	border-bottom: 1px solid lightgrey;
+	background-color: white;
+	}
+
+.buttons {
+	float: right;
+	padding-right: 10px;
+	}
+
+.buttons > button {
+	background-color: #567b95;
+	padding: 7px 10px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	}
+	
+.lefty {
+	float: left;
+	padding-left: 10px;
+	}	
+
+	
+	
+
+/* main */	
+main {
+	margin: auto;
+	margin-bottom: 25px;
+	}
+	
+main > article > header {
+
+	margin-top: 25px;
+	}
+	
+main > header, article {
+	max-width: 560px;
+	min-width: 360px;
+	margin: auto;
+	}
+	
+/* mian > header */	
+
+main > header > h1 {
+	font-size: 35px;
+	font-style: italic;
+	line-height: 1.5em;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	}
+	
+main > header > div {
+	display: flex;
+	justify-content: flex-start;
+	border-top: 1px solid lightgrey;
+	padding: 15px 0;
+	}
+
+main > header > div > i {
+	margin-right: 10px;
+	}
+
+main > header > div > i:hover {
+	cursor: pointer;
+	}
+	
+/* grid */	
+
+.inflation-theory {
+	margin: auto;
+	width: 1060px;
+	height: 650px;
+	}
+	
+#i-t-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-column-gap: 10px;
+	
+	margin-top: 15px;
+	width: 1060px;
+	height: 560px;
+	background-image: url("inflation.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}
+	
+.grid-item-top {
+	grid-row-start: 2;
+	}
+	
+.grid-item-bottom {
+	grid-row-start: 4;
+	}
+
+/* para */
+
+.article-text {
+	margin: 25px 0;
+	font-size: 20px;
+	line-height: 1.6;
+	}
+
+/* figures */
+	
+.big-img {
+	margin: auto;
+	max-width: 1060px;
+	min-width: 360px;
+	}
+
+.small-img {
+	margin: auto;
+	max-width: 560px;
+	min-width: 360px;
+	}
+	
+img{
+	width: 100%;
+	}
+	
+/* bottom section */	
+
+.bot-section{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	padding: 25px 0 125px 0;
+	margin: 0 50px;
+	border-top: 5px double lightgrey;
+	}
+	
+.bot-section > section {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.5em;
+	}
+.bot-section > section:last-child {
+	border-left: 1px solid lightgrey;
+	padding-left: 10px;
+	}
+
+.bot-section > section > h6 {
+	font-weight: bold;
+	}
+	
+.bot-section > section > a {
+	color: black;
+	text-decoration: none;
+	}
+
+.bot-section > section > a:hover {
+	text-decoration: underline;
+	}
+	
+/* footer */	
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px 0;
+	text-align: center;
+	border-top: 1px solid black;
+	background-color: white;
+	}
+	
